@@ -1,0 +1,75 @@
+# Compiled class file
+*.class
+
+# Log file
+*.log
+
+# BlueJ files
+*.ctxt
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+replay_pid*
+
+# Visual companion (brainstorming mockups)
+.superpowers/
+
+# Node
+node_modules/
+
+# Build output
+<<<<<<< Updated upstream
+target/
+build/
+/out/
+.quarkus/
+.gradle/
+coverage/
+=======
+/target/
+/build/
+/out/
+/.quarkus/
+/.gradle/
+/coverage/
+>>>>>>> Stashed changes
+
+# Firebase credentials
+*-firebase-adminsdk-*.json
+firebase-service-account.json
+
+# Environment secrets
+.env
+.env.development
+.env.local
+.env.production
+cloudrun.env
+
+
+
+.m2*
+
+# Data-ingestion working files
+tools/ingesta-datos/.data/
+tools/ingesta-datos/vendor/
+tools/ingesta-datos/**/__pycache__/
+.pytest_cache/
+.mypy_cache/
+
+# Local report exports
+statuscope-*-outbreak-report-*.pdf
+
+# Local verification temp files
+.tmp/

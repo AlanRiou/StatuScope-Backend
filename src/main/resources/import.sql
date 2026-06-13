@@ -1,0 +1,212 @@
+-- States represent Mexican federal entities.
+INSERT INTO states (id, code, name, description, created_at, updated_at) VALUES
+('40000000-0000-0000-0000-000000000001', 'AGS',  'Aguascalientes',   'Estado de Aguascalientes', CURRENT_TIMESTAMP, CURRENT_TIMESTAMP),
+('40000000-0000-0000-0000-000000000002', 'BC',   'Baja California',  'Estado de Baja California', CURRENT_TIMESTAMP, CURRENT_TIMESTAMP),
+('40000000-0000-0000-0000-000000000003', 'BCS',  'Baja California Sur', 'Estado de Baja California Sur', CURRENT_TIMESTAMP, CURRENT_TIMESTAMP),
+('40000000-0000-0000-0000-000000000004', 'CAM',  'Campeche',         'Estado de Campeche', CURRENT_TIMESTAMP, CURRENT_TIMESTAMP),
+('40000000-0000-0000-0000-000000000005', 'COA',  'Coahuila de Zaragoza', 'Estado de Coahuila de Zaragoza', CURRENT_TIMESTAMP, CURRENT_TIMESTAMP),
+('40000000-0000-0000-0000-000000000006', 'COL',  'Colima',           'Estado de Colima', CURRENT_TIMESTAMP, CURRENT_TIMESTAMP),
+('40000000-0000-0000-0000-000000000007', 'CHP',  'Chiapas',          'Estado de Chiapas', CURRENT_TIMESTAMP, CURRENT_TIMESTAMP),
+('40000000-0000-0000-0000-000000000008', 'CHH',  'Chihuahua',        'Estado de Chihuahua', CURRENT_TIMESTAMP, CURRENT_TIMESTAMP),
+('40000000-0000-0000-0000-000000000009', 'CDMX', 'Ciudad de Mexico', 'Entidad federativa Ciudad de Mexico', CURRENT_TIMESTAMP, CURRENT_TIMESTAMP),
+('40000000-0000-0000-0000-000000000010', 'DUR',  'Durango',          'Estado de Durango', CURRENT_TIMESTAMP, CURRENT_TIMESTAMP),
+('40000000-0000-0000-0000-000000000011', 'GUA',  'Guanajuato',       'Estado de Guanajuato', CURRENT_TIMESTAMP, CURRENT_TIMESTAMP),
+('40000000-0000-0000-0000-000000000012', 'GRO',  'Guerrero',         'Estado de Guerrero', CURRENT_TIMESTAMP, CURRENT_TIMESTAMP),
+('40000000-0000-0000-0000-000000000013', 'HID',  'Hidalgo',          'Estado de Hidalgo', CURRENT_TIMESTAMP, CURRENT_TIMESTAMP),
+('40000000-0000-0000-0000-000000000014', 'JAL',  'Jalisco',          'Estado de Jalisco', CURRENT_TIMESTAMP, CURRENT_TIMESTAMP),
+('40000000-0000-0000-0000-000000000015', 'MEX',  'Mexico',           'Estado de Mexico', CURRENT_TIMESTAMP, CURRENT_TIMESTAMP),
+('40000000-0000-0000-0000-000000000016', 'MIC',  'Michoacan de Ocampo', 'Estado de Michoacan de Ocampo', CURRENT_TIMESTAMP, CURRENT_TIMESTAMP),
+('40000000-0000-0000-0000-000000000017', 'MOR',  'Morelos',          'Estado de Morelos', CURRENT_TIMESTAMP, CURRENT_TIMESTAMP),
+('40000000-0000-0000-0000-000000000018', 'NAY',  'Nayarit',          'Estado de Nayarit', CURRENT_TIMESTAMP, CURRENT_TIMESTAMP),
+('40000000-0000-0000-0000-000000000019', 'NL',   'Nuevo Leon',       'Estado de Nuevo Leon', CURRENT_TIMESTAMP, CURRENT_TIMESTAMP),
+('40000000-0000-0000-0000-000000000020', 'OAX',  'Oaxaca',           'Estado de Oaxaca', CURRENT_TIMESTAMP, CURRENT_TIMESTAMP),
+('40000000-0000-0000-0000-000000000021', 'PUE',  'Puebla',           'Estado de Puebla', CURRENT_TIMESTAMP, CURRENT_TIMESTAMP),
+('40000000-0000-0000-0000-000000000022', 'QRO',  'Queretaro',        'Estado de Queretaro', CURRENT_TIMESTAMP, CURRENT_TIMESTAMP),
+('40000000-0000-0000-0000-000000000023', 'ROO',  'Quintana Roo',     'Estado de Quintana Roo', CURRENT_TIMESTAMP, CURRENT_TIMESTAMP),
+('40000000-0000-0000-0000-000000000024', 'SLP',  'San Luis Potosi',  'Estado de San Luis Potosi', CURRENT_TIMESTAMP, CURRENT_TIMESTAMP),
+('40000000-0000-0000-0000-000000000025', 'SIN',  'Sinaloa',          'Estado de Sinaloa', CURRENT_TIMESTAMP, CURRENT_TIMESTAMP),
+('40000000-0000-0000-0000-000000000026', 'SON',  'Sonora',           'Estado de Sonora', CURRENT_TIMESTAMP, CURRENT_TIMESTAMP),
+('40000000-0000-0000-0000-000000000027', 'TAB',  'Tabasco',          'Estado de Tabasco', CURRENT_TIMESTAMP, CURRENT_TIMESTAMP),
+('40000000-0000-0000-0000-000000000028', 'TAM',  'Tamaulipas',       'Estado de Tamaulipas', CURRENT_TIMESTAMP, CURRENT_TIMESTAMP),
+('40000000-0000-0000-0000-000000000029', 'TLA',  'Tlaxcala',         'Estado de Tlaxcala', CURRENT_TIMESTAMP, CURRENT_TIMESTAMP),
+('40000000-0000-0000-0000-000000000030', 'VER',  'Veracruz de Ignacio de la Llave', 'Estado de Veracruz de Ignacio de la Llave', CURRENT_TIMESTAMP, CURRENT_TIMESTAMP),
+('40000000-0000-0000-0000-000000000031', 'YUC',  'Yucatan',          'Estado de Yucatan', CURRENT_TIMESTAMP, CURRENT_TIMESTAMP),
+('40000000-0000-0000-0000-000000000032', 'ZAC',  'Zacatecas',        'Estado de Zacatecas', CURRENT_TIMESTAMP, CURRENT_TIMESTAMP);
+
+-- Specialties
+INSERT INTO specialties (id, code, name, description, created_at, updated_at) VALUES
+('50000000-0000-0000-0000-000000000001', 'GEN',  'General Medicine',  'Primary care and general practice',         CURRENT_TIMESTAMP, CURRENT_TIMESTAMP),
+('50000000-0000-0000-0000-000000000002', 'CARD', 'Cardiology',        'Heart and circulatory conditions',          CURRENT_TIMESTAMP, CURRENT_TIMESTAMP),
+('50000000-0000-0000-0000-000000000003', 'PULM', 'Pulmonology',       'Respiratory system',                        CURRENT_TIMESTAMP, CURRENT_TIMESTAMP),
+('50000000-0000-0000-0000-000000000004', 'INF',  'Infectious Diseases','Infectious and communicable diseases',     CURRENT_TIMESTAMP, CURRENT_TIMESTAMP),
+('50000000-0000-0000-0000-000000000005', 'PED',  'Pediatrics',        'Care of infants, children, and adolescents',CURRENT_TIMESTAMP, CURRENT_TIMESTAMP),
+('50000000-0000-0000-0000-000000000006', 'GASTRO','Gastroenterology', 'Digestive system and gastrointestinal conditions', CURRENT_TIMESTAMP, CURRENT_TIMESTAMP),
+('50000000-0000-0000-0000-000000000007', 'NEURO','Neurology',         'Brain, nervous system, and neurologic conditions', CURRENT_TIMESTAMP, CURRENT_TIMESTAMP),
+('50000000-0000-0000-0000-000000000008', 'ENT',  'Otolaryngology',    'Ear, nose, throat, head and neck conditions', CURRENT_TIMESTAMP, CURRENT_TIMESTAMP),
+('50000000-0000-0000-0000-000000000009', 'DERM', 'Dermatology',       'Skin, hair, and nail conditions',            CURRENT_TIMESTAMP, CURRENT_TIMESTAMP),
+('50000000-0000-0000-0000-000000000010', 'GYN',  'Gynecology',        'Female reproductive health conditions',      CURRENT_TIMESTAMP, CURRENT_TIMESTAMP),
+('50000000-0000-0000-0000-000000000011', 'URO',  'Urology',           'Urinary tract and male reproductive conditions', CURRENT_TIMESTAMP, CURRENT_TIMESTAMP),
+('50000000-0000-0000-0000-000000000012', 'FAM',  'Family Medicine',   'Comprehensive primary care across ages',     CURRENT_TIMESTAMP, CURRENT_TIMESTAMP),
+('50000000-0000-0000-0000-000000000013', 'OPH',  'Ophthalmology',     'Eye and vision conditions',                  CURRENT_TIMESTAMP, CURRENT_TIMESTAMP),
+('50000000-0000-0000-0000-000000000014', 'DENT', 'Dentistry',         'Oral and dental conditions',                 CURRENT_TIMESTAMP, CURRENT_TIMESTAMP);
+
+-- Diseases and symptoms are seeded by Flyway data migrations from the disease catalog CSV.
+
+-- Roles
+INSERT INTO roles (id, code, name, description, created_at, updated_at) VALUES
+('00000000-0000-0000-0000-000000000001', 'SYSTEM_ADMIN',   'System Administrator',   'Platform-wide administrative access',          CURRENT_TIMESTAMP, CURRENT_TIMESTAMP),
+('00000000-0000-0000-0000-000000000002', 'HOSPITAL_ADMIN', 'Hospital Administrator', 'Administrative access scoped to one hospital', CURRENT_TIMESTAMP, CURRENT_TIMESTAMP),
+('00000000-0000-0000-0000-000000000003', 'DOCTOR',         'Doctor',                 'Clinical user scoped to one hospital',         CURRENT_TIMESTAMP, CURRENT_TIMESTAMP);
+
+-- Privileges
+INSERT INTO privileges (id, code, description, created_at, updated_at) VALUES
+('10000000-0000-0000-0000-000000000001', 'alerts.read',       'Read alerts',                CURRENT_TIMESTAMP, CURRENT_TIMESTAMP),
+('10000000-0000-0000-0000-000000000002', 'alerts.manage',     'Manage alerts',              CURRENT_TIMESTAMP, CURRENT_TIMESTAMP),
+('10000000-0000-0000-0000-000000000003', 'users.read',        'Read users',                 CURRENT_TIMESTAMP, CURRENT_TIMESTAMP),
+('10000000-0000-0000-0000-000000000004', 'users.manage',      'Create/update users',        CURRENT_TIMESTAMP, CURRENT_TIMESTAMP),
+('10000000-0000-0000-0000-000000000005', 'roles.manage',      'Manage RBAC roles',          CURRENT_TIMESTAMP, CURRENT_TIMESTAMP),
+('10000000-0000-0000-0000-000000000006', 'diagnosis.create',  'Create diagnosis entries',   CURRENT_TIMESTAMP, CURRENT_TIMESTAMP),
+('10000000-0000-0000-0000-000000000007', 'hospitals.read',    'Read hospitals',             CURRENT_TIMESTAMP, CURRENT_TIMESTAMP),
+('10000000-0000-0000-0000-000000000008', 'hospitals.manage',  'Create/update hospitals',    CURRENT_TIMESTAMP, CURRENT_TIMESTAMP),
+('10000000-0000-0000-0000-000000000009', 'patients.read',     'Read patients',              CURRENT_TIMESTAMP, CURRENT_TIMESTAMP),
+('10000000-0000-0000-0000-000000000010', 'patients.manage',   'Create/update patients',     CURRENT_TIMESTAMP, CURRENT_TIMESTAMP),
+('10000000-0000-0000-0000-000000000011', 'diseases.read',     'Read diseases',              CURRENT_TIMESTAMP, CURRENT_TIMESTAMP),
+('10000000-0000-0000-0000-000000000012', 'diseases.manage',   'Manage diseases catalog',    CURRENT_TIMESTAMP, CURRENT_TIMESTAMP),
+('10000000-0000-0000-0000-000000000013', 'specialties.read',  'Read specialties',           CURRENT_TIMESTAMP, CURRENT_TIMESTAMP),
+('10000000-0000-0000-0000-000000000014', 'specialties.manage','Manage specialties catalog', CURRENT_TIMESTAMP, CURRENT_TIMESTAMP),
+('10000000-0000-0000-0000-000000000015', 'outbreaks.read',    'Read outbreaks',             CURRENT_TIMESTAMP, CURRENT_TIMESTAMP),
+('10000000-0000-0000-0000-000000000016', 'outbreaks.manage',  'Manage outbreaks',           CURRENT_TIMESTAMP, CURRENT_TIMESTAMP),
+('10000000-0000-0000-0000-000000000017', 'states.read',       'Read states',                CURRENT_TIMESTAMP, CURRENT_TIMESTAMP),
+('10000000-0000-0000-0000-000000000018', 'states.manage',     'Manage states',              CURRENT_TIMESTAMP, CURRENT_TIMESTAMP),
+('10000000-0000-0000-0000-000000000019', 'diagnosis.assist',  'Use the AI diagnosis assistant chat', CURRENT_TIMESTAMP, CURRENT_TIMESTAMP),
+('10000000-0000-0000-0000-000000000020', 'admin.operations',  'Access hospital admin operational features', CURRENT_TIMESTAMP, CURRENT_TIMESTAMP),
+('10000000-0000-0000-0000-000000000021', 'isSystemAdmin',     'Access system administrator features', CURRENT_TIMESTAMP, CURRENT_TIMESTAMP);
+
+-- SYSTEM_ADMIN: everything
+INSERT INTO role_privileges (role_id, privilege_id) VALUES
+('00000000-0000-0000-0000-000000000001', '10000000-0000-0000-0000-000000000001'),
+('00000000-0000-0000-0000-000000000001', '10000000-0000-0000-0000-000000000002'),
+('00000000-0000-0000-0000-000000000001', '10000000-0000-0000-0000-000000000003'),
+('00000000-0000-0000-0000-000000000001', '10000000-0000-0000-0000-000000000004'),
+('00000000-0000-0000-0000-000000000001', '10000000-0000-0000-0000-000000000005'),
+('00000000-0000-0000-0000-000000000001', '10000000-0000-0000-0000-000000000006'),
+('00000000-0000-0000-0000-000000000001', '10000000-0000-0000-0000-000000000007'),
+('00000000-0000-0000-0000-000000000001', '10000000-0000-0000-0000-000000000008'),
+('00000000-0000-0000-0000-000000000001', '10000000-0000-0000-0000-000000000009'),
+('00000000-0000-0000-0000-000000000001', '10000000-0000-0000-0000-000000000010'),
+('00000000-0000-0000-0000-000000000001', '10000000-0000-0000-0000-000000000011'),
+('00000000-0000-0000-0000-000000000001', '10000000-0000-0000-0000-000000000012'),
+('00000000-0000-0000-0000-000000000001', '10000000-0000-0000-0000-000000000013'),
+('00000000-0000-0000-0000-000000000001', '10000000-0000-0000-0000-000000000014'),
+('00000000-0000-0000-0000-000000000001', '10000000-0000-0000-0000-000000000015'),
+('00000000-0000-0000-0000-000000000001', '10000000-0000-0000-0000-000000000016'),
+('00000000-0000-0000-0000-000000000001', '10000000-0000-0000-0000-000000000017'),
+('00000000-0000-0000-0000-000000000001', '10000000-0000-0000-0000-000000000018'),
+('00000000-0000-0000-0000-000000000001', '10000000-0000-0000-0000-000000000019');
+-- isSystemAdmin for SYSTEM_ADMIN
+INSERT INTO role_privileges (role_id, privilege_id) VALUES
+('00000000-0000-0000-0000-000000000001', '10000000-0000-0000-0000-000000000021');
+
+-- HOSPITAL_ADMIN: hospital-scoped clinical + admin.
+INSERT INTO role_privileges (role_id, privilege_id) VALUES
+('00000000-0000-0000-0000-000000000002', '10000000-0000-0000-0000-000000000001'),
+('00000000-0000-0000-0000-000000000002', '10000000-0000-0000-0000-000000000002'),
+('00000000-0000-0000-0000-000000000002', '10000000-0000-0000-0000-000000000003'),
+('00000000-0000-0000-0000-000000000002', '10000000-0000-0000-0000-000000000004'),
+('00000000-0000-0000-0000-000000000002', '10000000-0000-0000-0000-000000000007'),
+('00000000-0000-0000-0000-000000000002', '10000000-0000-0000-0000-000000000009'),
+('00000000-0000-0000-0000-000000000002', '10000000-0000-0000-0000-000000000010'),
+('00000000-0000-0000-0000-000000000002', '10000000-0000-0000-0000-000000000011'),
+('00000000-0000-0000-0000-000000000002', '10000000-0000-0000-0000-000000000013'),
+('00000000-0000-0000-0000-000000000002', '10000000-0000-0000-0000-000000000015'),
+('00000000-0000-0000-0000-000000000002', '10000000-0000-0000-0000-000000000016'),
+('00000000-0000-0000-0000-000000000002', '10000000-0000-0000-0000-000000000017');
+-- admin.operations for HOSPITAL_ADMIN
+INSERT INTO role_privileges (role_id, privilege_id) VALUES
+('00000000-0000-0000-0000-000000000002', '10000000-0000-0000-0000-000000000020');
+
+-- DOCTOR: read alerts + clinical features for their patients
+INSERT INTO role_privileges (role_id, privilege_id) VALUES
+('00000000-0000-0000-0000-000000000003', '10000000-0000-0000-0000-000000000001'),
+('00000000-0000-0000-0000-000000000003', '10000000-0000-0000-0000-000000000006'),
+('00000000-0000-0000-0000-000000000003', '10000000-0000-0000-0000-000000000009'),
+('00000000-0000-0000-0000-000000000003', '10000000-0000-0000-0000-000000000010'),
+('00000000-0000-0000-0000-000000000003', '10000000-0000-0000-0000-000000000011'),
+('00000000-0000-0000-0000-000000000003', '10000000-0000-0000-0000-000000000013'),
+('00000000-0000-0000-0000-000000000003', '10000000-0000-0000-0000-000000000015'),
+('00000000-0000-0000-0000-000000000003', '10000000-0000-0000-0000-000000000019');
+
+-- Users and user_roles are seeded by DevSeeder.java in dev profile (creates real Firebase
+-- identities with password "Password123!" and writes matching DB rows with the real UID).
+-- Do not insert users here or DevSeeder's idempotency guard will short-circuit.
+
+-- ============================================================
+-- HOSPITALS (needed as FK parent for operational seed data)
+-- municipality_id is left NULL here; Flyway V2 sets real values in local-persistent profile.
+-- ============================================================
+INSERT INTO hospitals (id, code, name, address, phone, invite_code, active, postal_code, bed_count, doctor_count, nurse_count, municipality_id, latitude, longitude, created_at, updated_at) VALUES
+('30000000-0000-0000-0000-000000000001', 'HGZ-21', 'Hospital General Zona 21',  'Av. Principal 100, Monterrey',    '+52 81 0000 0001', 'INVITE-HGZ21', TRUE, '64000', 240, 72, 180, NULL, 25.6866142, -100.3161126, CURRENT_TIMESTAMP, CURRENT_TIMESTAMP),
+('30000000-0000-0000-0000-000000000002', 'HRE-05', 'Hospital Regional Este',     'Calle 5 Ote 200, Xochimilco',     '+52 55 0000 0002', 'INVITE-HRE05', TRUE, '16000', 320, 96, 240, NULL, 19.2572310,  -99.1037420,  CURRENT_TIMESTAMP, CURRENT_TIMESTAMP);
+
+-- ============================================================
+-- OPERATIONAL MODULE SEED DATA (Hospital 1: HGZ-21, Monterrey)
+-- ============================================================
+
+-- active outbreak signal used by the operational recommendation engine
+INSERT INTO outbreaks (id, disease_id, scope, municipality_id, state_id, case_count, confirmation_status, status, started_at, ended_at, created_at, updated_at) VALUES
+('71000000-0000-0000-0000-000000000501', '60000000-0000-0000-0000-000000000004', 'MUNICIPALITY', '42000000-0000-0000-0000-000000001003', NULL, 72, 'CONFIRMED', 'ACTIVE', CURRENT_TIMESTAMP - 2, NULL, CURRENT_TIMESTAMP, CURRENT_TIMESTAMP);
+
+-- hospital_resource_snapshots
+INSERT INTO hospital_resource_snapshots (id, hospital_id, total_beds, available_beds, icu_total_beds, icu_available_beds, isolation_rooms_total, isolation_rooms_available, oxygen_capacity_units, oxygen_available_units, doctors_on_shift, nurses_on_shift, specialists_on_shift, source, captured_at, created_at) VALUES
+('20000000-0000-0000-0000-000000000001', '30000000-0000-0000-0000-000000000001', 240, 24, 20, 3, 10, 3, 500, 150, 42, 130, 15, 'MANUAL', CURRENT_TIMESTAMP, CURRENT_TIMESTAMP);
+
+-- hospital_department_resources
+INSERT INTO hospital_department_resources (id, hospital_id, department_code, department_name, level_label, total_beds, occupied_beds, status, notes, updated_at) VALUES
+('21000000-0000-0000-0000-000000000001', '30000000-0000-0000-0000-000000000001', 'EMERGENCY',   'Emergency Department',       'Level 1', 40,  35, 'HIGH_LOAD', 'Near capacity',         CURRENT_TIMESTAMP),
+('21000000-0000-0000-0000-000000000002', '30000000-0000-0000-0000-000000000001', 'GENERAL',     'General Ward',               'Level 2', 80,  65, 'NORMAL',    NULL,                    CURRENT_TIMESTAMP),
+('21000000-0000-0000-0000-000000000003', '30000000-0000-0000-0000-000000000001', 'ICU',         'Intensive Care Unit',        'Level 3', 20,  15, 'HIGH_LOAD', 'Surge expected',        CURRENT_TIMESTAMP),
+('21000000-0000-0000-0000-000000000004', '30000000-0000-0000-0000-000000000001', 'RESPIRATORY', 'Respiratory Ward',           'Level 2', 30,  25, 'HIGH_LOAD', 'Outbreak isolation active', CURRENT_TIMESTAMP),
+('21000000-0000-0000-0000-000000000005', '30000000-0000-0000-0000-000000000001', 'PEDIATRICS',  'Pediatric Ward',             'Level 2', 25,  15, 'NORMAL',    NULL,                    CURRENT_TIMESTAMP);
+
+-- hospital_staffing_profiles
+INSERT INTO hospital_staffing_profiles (id, hospital_id, role_code, role_name, headcount, on_shift_count, on_call_count, standby_count, updated_at) VALUES
+('22000000-0000-0000-0000-000000000001', '30000000-0000-0000-0000-000000000001', 'EMERGENCY_PHYSICIAN',  'Emergency Physicians',            10, 4, 3, 3, CURRENT_TIMESTAMP),
+('22000000-0000-0000-0000-000000000002', '30000000-0000-0000-0000-000000000001', 'ICU_NURSE',            'ICU Nurses',                      18, 6, 6, 6, CURRENT_TIMESTAMP),
+('22000000-0000-0000-0000-000000000003', '30000000-0000-0000-0000-000000000001', 'PULMONOLOGIST',        'Pulmonologists',                   5, 2, 2, 1, CURRENT_TIMESTAMP),
+('22000000-0000-0000-0000-000000000004', '30000000-0000-0000-0000-000000000001', 'INFECTIOUS_DISEASE',   'Infectious Disease Specialists',   4, 2, 1, 1, CURRENT_TIMESTAMP),
+('22000000-0000-0000-0000-000000000005', '30000000-0000-0000-0000-000000000001', 'GENERAL_PRACTITIONER', 'General Practitioners',           30, 12, 9, 9, CURRENT_TIMESTAMP),
+('22000000-0000-0000-0000-000000000006', '30000000-0000-0000-0000-000000000001', 'NURSING_STAFF',        'Nursing Staff',                   80, 30, 25, 25, CURRENT_TIMESTAMP);
+
+-- hospital_inventory_items
+INSERT INTO hospital_inventory_items (id, hospital_id, item_code, item_name, category, location, current_quantity, capacity_quantity, unit, critical_threshold, target_quantity, status, updated_at) VALUES
+('23000000-0000-0000-0000-000000000001', '30000000-0000-0000-0000-000000000001', 'N95_MASK',     'N95 Respirator Masks',   'PPE',          'Central Supply', 500,  2000, 'units',    200,  1500, 'LOW',      CURRENT_TIMESTAMP),
+('23000000-0000-0000-0000-000000000002', '30000000-0000-0000-0000-000000000001', 'VENTILATOR',   'Mechanical Ventilators', 'EQUIPMENT',    'ICU',            8,    20,   'units',    3,    15,   'NORMAL',   CURRENT_TIMESTAMP),
+('23000000-0000-0000-0000-000000000003', '30000000-0000-0000-0000-000000000001', 'O2_CYLINDER',  'Oxygen Cylinders',       'SUPPLY',       'Gas Room',       80,   200,  'cylinders',40,   150,  'NORMAL',   CURRENT_TIMESTAMP),
+('23000000-0000-0000-0000-000000000004', '30000000-0000-0000-0000-000000000001', 'IV_FLUID',     'IV Saline Solution',     'PHARMACEUTICAL','Pharmacy',      300,  1000, 'bags',     100,  800,  'NORMAL',   CURRENT_TIMESTAMP),
+('23000000-0000-0000-0000-000000000005', '30000000-0000-0000-0000-000000000001', 'ISO_GOWN',     'Isolation Gowns',        'PPE',          'Central Supply', 150,  1000, 'units',    200,  700,  'CRITICAL', CURRENT_TIMESTAMP),
+('23000000-0000-0000-0000-000000000006', '30000000-0000-0000-0000-000000000001', 'ANTIVIRAL',    'Antiviral Medications',  'PHARMACEUTICAL','Pharmacy',      60,   300,  'doses',    50,   250,  'LOW',      CURRENT_TIMESTAMP);
+
+-- hospital_operational_contacts
+INSERT INTO hospital_operational_contacts (id, hospital_id, user_id, display_name, role_label, department_code, contact_channel, contact_value, availability_status, is_assignable, is_notifiable, updated_at) VALUES
+('25000000-0000-0000-0000-000000000001', '30000000-0000-0000-0000-000000000001', NULL, 'Dr. Elena Ramirez', 'ICU Supervisor', 'ICU', 'PHONE', '+52 81 1111 0001', 'ON_SHIFT', TRUE, TRUE, CURRENT_TIMESTAMP),
+('25000000-0000-0000-0000-000000000002', '30000000-0000-0000-0000-000000000001', NULL, 'Miguel Torres', 'Emergency Operations Lead', 'EMERGENCY', 'PHONE', '+52 81 1111 0002', 'ON_CALL', TRUE, TRUE, CURRENT_TIMESTAMP),
+('25000000-0000-0000-0000-000000000003', '30000000-0000-0000-0000-000000000001', NULL, 'Lucia Gomez', 'Central Supply Coordinator', 'SUPPLY', 'EMAIL', 'supply@hgz21.local', 'AVAILABLE', TRUE, TRUE, CURRENT_TIMESTAMP);
+
+-- hospital_operational_groups
+INSERT INTO hospital_operational_groups (id, hospital_id, group_code, group_name, group_type, department_code, is_assignable, is_notifiable, updated_at) VALUES
+('26000000-0000-0000-0000-000000000001', '30000000-0000-0000-0000-000000000001', 'ICU_RESPONSE', 'ICU Response Team', 'INCIDENT_RESPONSE', 'ICU', TRUE, TRUE, CURRENT_TIMESTAMP),
+('26000000-0000-0000-0000-000000000002', '30000000-0000-0000-0000-000000000001', 'ED_LEADS', 'Emergency Department Leads', 'DEPARTMENT', 'EMERGENCY', TRUE, TRUE, CURRENT_TIMESTAMP),
+('26000000-0000-0000-0000-000000000003', '30000000-0000-0000-0000-000000000001', 'SUPPLY_CHAIN', 'Supply Chain Team', 'SUPPLY_CHAIN', 'SUPPLY', TRUE, TRUE, CURRENT_TIMESTAMP);
+
+-- hospital_operational_group_members
+INSERT INTO hospital_operational_group_members (id, group_id, contact_id, created_at) VALUES
+('27000000-0000-0000-0000-000000000001', '26000000-0000-0000-0000-000000000001', '25000000-0000-0000-0000-000000000001', CURRENT_TIMESTAMP),
+('27000000-0000-0000-0000-000000000002', '26000000-0000-0000-0000-000000000002', '25000000-0000-0000-0000-000000000002', CURRENT_TIMESTAMP),
+('27000000-0000-0000-0000-000000000003', '26000000-0000-0000-0000-000000000003', '25000000-0000-0000-0000-000000000003', CURRENT_TIMESTAMP);
+
+-- hospital_inventory_movements
+INSERT INTO hospital_inventory_movements (id, hospital_id, inventory_item_id, movement_type, quantity_delta, unit, notes, related_supply_request_id, created_at) VALUES
+('28000000-0000-0000-0000-000000000001', '30000000-0000-0000-0000-000000000001', '23000000-0000-0000-0000-000000000005', 'CONSUMPTION', -120, 'units', 'Respiratory isolation surge usage', NULL, CURRENT_TIMESTAMP),
+('28000000-0000-0000-0000-000000000002', '30000000-0000-0000-0000-000000000001', '23000000-0000-0000-0000-000000000001', 'REPLENISHMENT', 300, 'units', 'Recent PPE restock', NULL, CURRENT_TIMESTAMP),
+('28000000-0000-0000-0000-000000000003', '30000000-0000-0000-0000-000000000001', '23000000-0000-0000-0000-000000000003', 'MANUAL_ADJUSTMENT', -15, 'cylinders', 'Adjusted after overnight count', NULL, CURRENT_TIMESTAMP);
+
